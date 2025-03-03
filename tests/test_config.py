@@ -3,6 +3,7 @@ import configparser
 import os
 from tool.config import Config
 
+
 class TestConfig(unittest.TestCase):
     def test_config(self):
         # 创建 ConfigParser 对象
